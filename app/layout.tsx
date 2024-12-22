@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 		siteName: "Free OG Generator",
 		images: [
 			{
-				url: "https://og.indiehub.best/og.png",
+				url: "https://og.indiehub.best/og-2.png",
 				width: 1200,
 				height: 630,
 				alt: "Free OG Generator - Generate beautiful Open Graph images with zero effort.",

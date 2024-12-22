@@ -63,7 +63,7 @@ export default function Home() {
 														variant="link"
 														asChild
 													>
-														<Link href="https://indiehub.best/blog/the-free-open-gragh-image-maker">
+														<Link href="https://indiehub.best/blog/the-free-open-gragh-image-generator">
 															Learn more
 														</Link>
 													</Button>{" "}

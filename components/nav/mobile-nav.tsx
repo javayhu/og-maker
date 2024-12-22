@@ -26,21 +26,22 @@ export function MobileNav() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader className="pb-4 text-left">
-          <SheetTitle>
+          <SheetTitle className="flex items-center space-x-4">
             <Image
-              src="/logo.svg"
-              alt="imgsrc"
+              src="/logo.png"
+              alt="Free OG Maker"
               width={32}
               height={32}
               className="block dark:hidden"
             />
             <Image
-              src="/logo_dark.svg"
-              alt="imgsrc"
+              src="/logo.png"
+              alt="Free OG Maker"
               width={32}
               height={32}
               className="hidden dark:block"
             />
+            <span className="text font-semibold">Free OG Maker</span>
           </SheetTitle>
         </SheetHeader>
 
@@ -51,8 +52,18 @@ export function MobileNav() {
             className="justify-start px-0"
             asChild
           >
-            <Link href="mailto:support@imgsrc.io" target="_blank">
-              Support
+            <Link href="https://indiehub.best" target="_blank">
+              IndieHub
+            </Link>
+          </Button>
+          <Button
+            onClick={() => setSheetOpen(false)}
+            variant="link"
+            className="justify-start px-0"
+            asChild
+          >
+            <Link href="https://mkdirs.com" target="_blank">
+              Mkdirs
             </Link>
           </Button>
         </div>

@@ -34,14 +34,14 @@ export const logosTemplateDefault: LogosTemplate = {
   name: "og:logos",
   params: {
     tag: {
-      text: "Developer Guide",
+      text: "mkdirs.com",
       fontFamily: "inter",
       fontWeight: 400,
       fontSize: 20,
       color: "#030712",
     },
     title: {
-      text: "Build a Linear Clone with Supabase and Next.js",
+      text: "Launch a directory with Next.js and Sanity",
       fontFamily: "inter",
       fontWeight: 700,
       fontSize: 44,
@@ -52,11 +52,11 @@ export const logosTemplateDefault: LogosTemplate = {
         url: absoluteUrl("/samples/logos/nextjs.svg"),
       },
       {
-        url: absoluteUrl("/samples/logos/supabase.svg"),
+        url: absoluteUrl("/samples/logos/sanity.svg"),
       },
-      {
-        url: absoluteUrl("/samples/logos/linear.svg"),
-      },
+      // {
+      //   url: absoluteUrl("/samples/logos/stripe.svg"),
+      // },
     ],
   },
   background: {

@@ -35,30 +35,30 @@ export const imageRightTemplateDefault: ImageRightTemplate = {
   name: "og:image-right",
   params: {
     tag: {
-      text: "Marketing",
+      text: "mkdirs.com",
       fontFamily: "inter",
       fontWeight: 400,
       fontSize: 20,
-      color: "#030712",
+      color: "#FFFFFF",
     },
     title: {
-      text: "Generate Beautiful Open Graph Images",
+      text: "Launch profitable directory websites in minutes",
       fontFamily: "inter",
       fontWeight: 700,
       fontSize: 60,
-      color: "#030712",
+      color: "#FFFFFF",
     },
     logo: {
-      url: absoluteUrl("/samples/logos/imgsrc.png"),
+      url: absoluteUrl("/samples/logos/mkdirs-logo.png"),
     },
     image: {
-      url: absoluteUrl("/samples/imgsrc.png"),
+      url: absoluteUrl("/samples/mkdirs.png"),
     },
   },
   background: {
     type: "linear-gradient",
     direction: "to top right",
-    colorStops: ["rgb(236, 72, 153)", "rgb(239, 68, 68)", "rgb(234, 179, 8)"],
+    colorStops: ["rgb(17, 24, 39)", "rgb(75, 85, 99)"],
     noise: 0.15,
     gridOverlay: {
       pattern: "grid",

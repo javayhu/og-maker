@@ -34,21 +34,21 @@ export const noticeTemplateDefault: NoticeTemplate = {
   name: "og:notice",
   params: {
     title: {
-      text: "Changelog #6",
+      text: "Mkdirs",
       fontFamily: "inter",
       fontWeight: 700,
       fontSize: 32,
       color: "#030712",
     },
     description: {
-      text: "December 2023",
+      text: "The best directory website boilerplate",
       fontFamily: "inter",
       fontWeight: 400,
       fontSize: 28,
       color: "#030712",
     },
     logo: {
-      url: absoluteUrl("/samples/logos/bun.svg"),
+      url: absoluteUrl("/samples/logos/mkdirs-logo.png"),
     },
   },
   background: {

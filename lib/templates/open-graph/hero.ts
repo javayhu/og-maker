@@ -34,21 +34,21 @@ export const heroTemplateDefault: HeroTemplate = {
   name: "og:hero",
   params: {
     tag: {
-      text: "Open Source",
+      text: "mkdirs.com",
       fontFamily: "inter",
       fontWeight: 400,
       fontSize: 20,
       color: "#f9fafb",
     },
     title: {
-      text: "Introducing Supabase Logs",
+      text: "The best directory website boilerplate",
       fontFamily: "inter",
       fontWeight: 700,
       fontSize: 48,
       color: "#f9fafb",
     },
     image: {
-      url: absoluteUrl("/samples/supabase-logs.png"),
+      url: absoluteUrl("/samples/mkdirs.png"),
     },
   },
   background: {

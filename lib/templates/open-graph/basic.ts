@@ -34,21 +34,21 @@ export const basicTemplateDefault: BasicTemplate = {
   name: "og:basic",
   params: {
     title: {
-      text: "Vercel",
+      text: "Mkdirs",
       fontFamily: "inter",
       fontWeight: 700,
       fontSize: 52,
       color: "#030712",
     },
     description: {
-      text: "The Frontend Cloud",
+      text: "The best directory website boilerplate",
       fontFamily: "inter",
       fontWeight: 400,
       fontSize: 30,
       color: "#030712",
     },
     logo: {
-      url: absoluteUrl("/samples/logos/vercel.svg"),
+      url: absoluteUrl("/samples/logos/mkdirs-logo.png"),
     },
   },
   background: {

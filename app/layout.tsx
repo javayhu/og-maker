@@ -18,20 +18,20 @@ import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://og.indiehub.best"),
-	title: "Free OG Maker",
+	title: "Free OG Generator",
 	description: "Generate beautiful Open Graph images with zero effort, powered by IndieHub, the best all-in-one directory for indie makers.",
 	openGraph: {
 		title: "indiehub",
 		description: "Generate beautiful Open Graph images with zero effort.",
 		type: "website",
 		url: "https://og.indiehub.best",
-		siteName: "Free OG Maker",
+		siteName: "Free OG Generator",
 		images: [
 			{
 				url: "https://og.indiehub.best/og.png",
 				width: 1200,
 				height: 630,
-				alt: "Free OG Maker - Generate beautiful Open Graph images with zero effort.",
+				alt: "Free OG Generator - Generate beautiful Open Graph images with zero effort.",
 			},
 		],
 		locale: "en_US",
@@ -63,7 +63,7 @@ export default async function RootLayout({
 									<Image
 										className="block dark:hidden"
 										src="/logo.png"
-										alt="Free OG Maker Logo"
+										alt="Free OG Generator Logo"
 										width={36}
 										height={36}
 									/>
@@ -73,14 +73,14 @@ export default async function RootLayout({
 									<Image
 										className="hidden dark:block"
 										src="/logo.png"
-										alt="Free OG Maker Logo"
+										alt="Free OG Generator Logo"
 										width={36}
 										height={36}
 									/>
 								</Link>
 							</div>
 
-							<span className="text font-semibold">Free OG Maker</span>
+							<span className="text font-semibold">Free OG Generator</span>
 						</div>
 
 						<div className="hidden space-x-2 sm:flex">
@@ -118,7 +118,7 @@ export default async function RootLayout({
 							<div className="flex items-center space-x-2">
 								<div className="font-mono font-semibold">
 									<Link href="https://og.indiehub.best" target="_blank">
-										Free OG Maker
+										Free OG Generator
 									</Link>
 								</div>
 

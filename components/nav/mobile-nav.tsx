@@ -29,19 +29,19 @@ export function MobileNav() {
           <SheetTitle className="flex items-center space-x-4">
             <Image
               src="/logo.png"
-              alt="Free OG Maker"
+              alt="Free OG Generator"
               width={32}
               height={32}
               className="block dark:hidden"
             />
             <Image
               src="/logo.png"
-              alt="Free OG Maker"
+              alt="Free OG Generator"
               width={32}
               height={32}
               className="hidden dark:block"
             />
-            <span className="text font-semibold">Free OG Maker</span>
+            <span className="text font-semibold">Free OG Generator</span>
           </SheetTitle>
         </SheetHeader>
 

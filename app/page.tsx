@@ -97,7 +97,7 @@ export default function Home() {
 															IndieHub
 														</Link>
 													</Button>{" "}
-													- The best all-in-one directory for indie makers.
+													- The best directory for indie makers.
 												</p>
 											</div>
 										</div>

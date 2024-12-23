@@ -21,10 +21,11 @@ export const metadata: Metadata = {
 	metadataBase: new URL("https://og.indiehub.best"),
 	title: "Free OG Generator",
 	description:
-		"Generate beautiful Open Graph images with zero effort, powered by IndieHub, the best all-in-one directory for indie makers.",
+		"Generate beautiful Open Graph images with zero effort. Use our free online Open Graph Generator tool to generate open graph meta tags for website or blogs.",
 	openGraph: {
-		title: "indiehub",
-		description: "Generate beautiful Open Graph images with zero effort.",
+		title: "Free OG Generator",
+		description:
+			"Generate beautiful Open Graph images with zero effort. Use our free online Open Graph Generator tool to generate open graph meta tags for website or blogs.",
 		type: "website",
 		url: "https://og.indiehub.best",
 		siteName: "Free OG Generator",
@@ -94,21 +95,21 @@ export default async function RootLayout({
 									</Link>
 								</div>
 
-								<span className="text font-semibold">Free OG Generator</span>
+								<h1 className="text font-semibold">Free OG Generator</h1>
 							</div>
 
 							<div className="hidden space-x-2 sm:flex">
-								{/* <Button variant="link">
-								<Link href="https://indiehub.best" target="_blank">
-									IndieHub
-								</Link>
-							</Button>
+								<Button variant="link">
+									<Link href="https://indiehub.best" target="_blank">
+										🎉 IndieHub
+									</Link>
+								</Button>
 
-							<Button variant="link">
-								<Link href="https://mkdirs.com" target="_blank">
-									Mkdirs
-								</Link>
-							</Button> */}
+								<Button variant="link">
+									<Link href="https://mkdirs.com" target="_blank">
+										🔥 Mkdirs
+									</Link>
+								</Button>
 
 								<ModeToggle />
 							</div>
@@ -143,14 +144,13 @@ export default async function RootLayout({
 
 										<Button variant="link" asChild>
 											<Link href="https://indiehub.best" target="_blank">
-												IndieHub - The best all-in-one directory for indie
-												makers
+												🎉 IndieHub - best directory for indie makers
 											</Link>
 										</Button>
 
 										<Button variant="link" asChild>
 											<Link href="https://mkdirs.com" target="_blank">
-												Mkdirs - The best directory boilerplate
+												🔥 Mkdirs - best directory boilerplate
 											</Link>
 										</Button>
 									</div>

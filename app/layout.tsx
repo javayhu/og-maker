@@ -19,22 +19,22 @@ import PlausibleProvider from "next-plausible";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://og.indiehub.best"),
-	title: "Free OG Generator",
+	title: "Free Open Graph Generator",
 	description:
 		"Generate beautiful Open Graph images with zero effort. Use our free online Open Graph Generator tool to generate open graph meta tags for website or blogs.",
 	openGraph: {
-		title: "Free OG Generator",
+		title: "Free Open Graph Generator",
 		description:
 			"Generate beautiful Open Graph images with zero effort. Use our free online Open Graph Generator tool to generate open graph meta tags for website or blogs.",
 		type: "website",
 		url: "https://og.indiehub.best",
-		siteName: "Free OG Generator",
+		siteName: "Free Open Graph Generator",
 		images: [
 			{
 				url: "https://og.indiehub.best/og-2.png",
 				width: 1200,
 				height: 630,
-				alt: "Free OG Generator - Generate beautiful Open Graph images with zero effort.",
+				alt: "Free Open Graph Generator - Generate beautiful Open Graph images with zero effort.",
 			},
 		],
 		locale: "en_US",
@@ -78,7 +78,7 @@ export default async function RootLayout({
 										<Image
 											className="block dark:hidden"
 											src="/logo.png"
-											alt="Free OG Generator Logo"
+											alt="Free Open Graph Generator Logo"
 											width={36}
 											height={36}
 										/>
@@ -88,26 +88,38 @@ export default async function RootLayout({
 										<Image
 											className="hidden dark:block"
 											src="/logo.png"
-											alt="Free OG Generator Logo"
+											alt="Free Open Graph Generator Logo"
 											width={36}
 											height={36}
 										/>
 									</Link>
 								</div>
 
-								<h1 className="text font-semibold">Free OG Generator</h1>
+								<h1 className="text font-semibold">
+									Free Open Graph Generator
+								</h1>
 							</div>
 
 							<div className="hidden space-x-2 sm:flex">
-								<Button variant="link">
+								{/* <Button variant="link">
 									<Link href="https://indiehub.best" target="_blank">
 										🎉 IndieHub
 									</Link>
-								</Button>
+								</Button> */}
 
-								<Button variant="link">
+								{/* <Button variant="link">
 									<Link href="https://mkdirs.com" target="_blank">
 										🔥 Mkdirs
+									</Link>
+								</Button> */}
+
+								<Button variant="link">
+									<Link
+										href="https://x.com/javay_hu"
+										target="_blank"
+										className="flex items-center space-x-4"
+									>
+										Follow me on X @javay_hu
 									</Link>
 								</Button>
 
@@ -133,7 +145,7 @@ export default async function RootLayout({
 								<div className="flex items-center space-x-2">
 									<div className="font-mono font-semibold">
 										<Link href="https://og.indiehub.best" target="_blank">
-											Free OG Generator
+											Free Open Graph Generator
 										</Link>
 									</div>
 

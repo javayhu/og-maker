@@ -40,6 +40,7 @@ export default function SaveImageButton() {
   const [pngDownloadUrl, setPngDownloadUrl] = useState<string>()
   const [generatingPng, setGeneratingPng] = useState(false)
   const pngAnchorElement = useRef<HTMLAnchorElement>(null)
+  const [fileName, setFileName] = useState(`og.png`)
 
   useEffect(() => {
     if (pngDownloadUrl) {
@@ -52,7 +53,7 @@ export default function SaveImageButton() {
       <a
         ref={pngAnchorElement}
         href={pngDownloadUrl}
-        download="image.png"
+        download={fileName}
         className="hidden"
       />
 
@@ -60,12 +61,12 @@ export default function SaveImageButton() {
         onClick={async () => {
           try {
             setGeneratingPng(true)
+            setFileName(`og-${Date.now()}.png`)
             const pngDownloadUrl = await renderPNG?.({
               svg: previewSvg,
               width: canvas.width,
             })
 
-            // this will set the pngDownloadUrl and trigger the useEffect to download the image
             setPngDownloadUrl(pngDownloadUrl as string)
           } finally {
             setGeneratingPng(false)

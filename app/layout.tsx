@@ -101,17 +101,17 @@ export default async function RootLayout({
 							</div>
 
 							<div className="hidden space-x-2 sm:flex">
-								{/* <Button variant="link">
+								<Button variant="link">
 									<Link href="https://indiehub.best" target="_blank">
 										🎉 IndieHub
 									</Link>
-								</Button> */}
+								</Button>
 
-								{/* <Button variant="link">
+								<Button variant="link">
 									<Link href="https://mkdirs.com" target="_blank">
 										🔥 Mkdirs
 									</Link>
-								</Button> */}
+								</Button>
 
 								<Button variant="link">
 									<Link
@@ -119,7 +119,7 @@ export default async function RootLayout({
 										target="_blank"
 										className="flex items-center space-x-4"
 									>
-										Follow me on X @javay_hu
+										👨‍💻 @javay_hu
 									</Link>
 								</Button>
 

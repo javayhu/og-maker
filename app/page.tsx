@@ -82,7 +82,7 @@ export default function Home() {
 															Mkdirs
 														</Link>
 													</Button>{" "}
-													- Launch profitable directory websites in minutes.
+													- The best directory boilerplate.
 												</p>
 											</div>
                       <div className="flex items-center">

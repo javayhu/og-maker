@@ -94,6 +94,8 @@ export const Template = ({
           style={{
             flexShrink: 0,
 
+            marginTop: "1rem",
+
             fontFamily: template.params.title.fontFamily,
             fontWeight: template.params.title.fontWeight,
             fontSize: `${template.params.title.fontSize}px`,

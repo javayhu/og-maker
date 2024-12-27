@@ -52,7 +52,7 @@ export const imageRightTemplateDefault: ImageRightTemplate = {
       url: absoluteUrl("/samples/logos/mkdirs-logo.png"),
     },
     image: {
-      url: absoluteUrl("/samples/mkdirs.png"),
+      url: absoluteUrl("/samples/mkdirs1.png"),
     },
   },
   background: {

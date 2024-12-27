@@ -34,21 +34,21 @@ export const noticeTemplateDefault: NoticeTemplate = {
   name: "og:notice",
   params: {
     title: {
-      text: "Mkdirs",
+      text: "IndieHub",
       fontFamily: "inter",
       fontWeight: 700,
       fontSize: 32,
       color: "#030712",
     },
     description: {
-      text: "The best directory website boilerplate",
+      text: "The best directory for indie makers",
       fontFamily: "inter",
       fontWeight: 400,
       fontSize: 28,
       color: "#030712",
     },
     logo: {
-      url: absoluteUrl("/samples/logos/mkdirs-logo.png"),
+      url: absoluteUrl("/samples/logos/indiehub-logo.png"),
     },
   },
   background: {

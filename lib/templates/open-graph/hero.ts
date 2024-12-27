@@ -48,7 +48,7 @@ export const heroTemplateDefault: HeroTemplate = {
       color: "#f9fafb",
     },
     image: {
-      url: absoluteUrl("/samples/mkdirs.png"),
+      url: absoluteUrl("/samples/mkdirs2.png"),
     },
   },
   background: {

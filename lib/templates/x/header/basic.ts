@@ -30,14 +30,14 @@ export const basicTemplateDefault: BasicTemplate = {
   name: "x:header-basic",
   params: {
     title: {
-      text: "Hi, I'm Fady 👋",
+      text: "Hi, I'm Javayhu 👋",
       fontFamily: "inter",
       fontWeight: 600,
       fontSize: 48,
       color: "#f9fafb",
     },
     description: {
-      text: "I build useful, everyday tools for developers.",
+      text: "I build in public on X (@javay_hu).",
       fontFamily: "inter",
       fontWeight: 500,
       fontSize: 36,

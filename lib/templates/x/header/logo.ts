@@ -27,14 +27,14 @@ export const logoTemplateDefault: LogoTemplate = {
   name: "x:header-logo",
   params: {
     description: {
-      text: "Deploy app servers close to your users",
+      text: "Launch profitable directory websites in minutes",
       fontFamily: "inter",
       fontWeight: 600,
       fontSize: 48,
       color: "#030712",
     },
     logo: {
-      url: absoluteUrl("/samples/logos/fly.svg"),
+      url: absoluteUrl("/samples/logos/mkdirs-logo.png"),
     },
   },
   background: {

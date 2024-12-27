@@ -30,14 +30,14 @@ export const minimalistTemplateDefault: MinimalistTemplate = {
   name: "x:header-minimalist",
   params: {
     title: {
-      text: "endpts",
+      text: "IndieHub",
       fontFamily: "inter",
       fontWeight: 600,
       fontSize: 48,
       color: "#f9fafb",
     },
     description: {
-      text: "| Deploy your API in seconds",
+      text: "| The all-in-one directory for indie makers",
       fontFamily: "inter",
       fontWeight: 400,
       fontSize: 48,

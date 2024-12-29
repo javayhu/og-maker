@@ -1,20 +1,20 @@
 import "./globals.css";
 
-import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
 import { TemplateStoreProvider } from "@/providers/template-store-provider";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
-import { Toaster } from "@/components/ui/sonner";
 import { ModeToggle } from "@/components/mode-toggle";
 import { MobileNav } from "@/components/nav/mobile-nav";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
+import { Toaster } from "@/components/ui/sonner";
 import PlausibleProvider from "next-plausible";
 
 export const metadata: Metadata = {
@@ -170,7 +170,7 @@ export default async function RootLayout({
 
 								{/* only shows on Desktop */}
 								<div className="hidden items-center gap-x-2 md:inline-flex">
-									<svg
+									{/* <svg
 										className="h-2 w-2 fill-green-400"
 										viewBox="0 0 6 6"
 										aria-hidden="true"
@@ -179,7 +179,15 @@ export default async function RootLayout({
 									</svg>
 									<span className="font-mono text-sm font-medium">
 										Operational
-									</span>
+									</span> */}
+									<Button variant="link" asChild>
+										<Link
+											href="https://github.com/FadyMak/imgsrc-app"
+											target="_blank"
+										>
+											all credits to imgsrc-app
+										</Link>
+									</Button>
 								</div>
 							</div>
 						</footer>

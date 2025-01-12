@@ -86,6 +86,8 @@ export const Template = ({
               fontSize: `${template.params.title.fontSize}px`,
               color: template.params.title.color,
               letterSpacing: "-0.025em",
+              marginTop: "8px",
+              marginBottom: "16px",
             }}
           >
             {template.params.title.text}
